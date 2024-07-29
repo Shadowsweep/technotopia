@@ -1,11 +1,12 @@
 import React from 'react'
+import Feed from '@components/Feed'
 
-const page = () => {
+const Home = () => {
   return (
    <section className="w-full flex-center flex-col" >
    <h1 className="head_text text-center" > Discover & Share
        <br className="max-md:hidden" />
-       <span className=" orange_gradient text-center" >
+       <span className=" green_gradient text-center" >
         AI-Powered Prompts
        </span>
        </h1>
@@ -13,9 +14,9 @@ const page = () => {
            open-source AI prompting tool to share creative prompts
        </p>
 
-       
+         <Feed />
    </section>
   )
 }
 
-export default page
+export default Home
